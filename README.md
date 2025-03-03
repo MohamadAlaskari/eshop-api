@@ -41,20 +41,19 @@ It is designed to handle complex features with clean code, full validation, and 
 
 ## 📦 Project setup
 
-```bash
-$ npm install
+$ npm install $
 
-🚀 Running the project
+## 🚀 Running the project
 # development
-$ npm run start
+$ npm run start $
 
 # watch mode
-$ npm run start:dev
+$ npm run start:dev $
 
 # production mode
-$ npm run start:prod
+$ npm run start:prod $
 
-✅ Database setup
+## ✅ Database setup
 Update your database credentials in: src/config/typeorm.config.ts
 
 {
@@ -65,7 +64,7 @@ Update your database credentials in: src/config/typeorm.config.ts
   database: 'eshop_db',
 }
 
-🛠️ Roadmap
+## 🛠️ Roadmap
 ✅ Users Module (complete)
 ✅ Global Error Handling (complete)
 ⏳ Products Module (next)
@@ -75,10 +74,10 @@ Update your database credentials in: src/config/typeorm.config.ts
 ⏳ Admin Roles and Permissions
 ⏳ Swagger Documentation
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Developed by Mohamad Alaskari
 Email: home@alaskaridesign.com
 
-✅ License
+## ✅ License
 Nest is MIT licensed.
 
