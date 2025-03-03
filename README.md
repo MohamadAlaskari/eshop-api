@@ -44,13 +44,13 @@ It is designed to handle complex features with clean code, full validation, and 
 $ npm install $
 
 ## 🚀 Running the project
-# development
+### development
 $ npm run start $
 
-# watch mode
+### watch mode
 $ npm run start:dev $
 
-# production mode
+### production mode
 $ npm run start:prod $
 
 ## ✅ Database setup
