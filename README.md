@@ -76,7 +76,7 @@ Update your database credentials in: src/config/typeorm.config.ts
 
 ## 🧑‍💻 Author
 Developed by Mohamad Alaskari
-Email: home@alaskaridesign.com
+Email: mohamad@alaskaridesign.com
 
 ## ✅ License
 Nest is MIT licensed.
