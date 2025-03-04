@@ -1,0 +1,19 @@
+#get
+GET http://localhost:3000/users/1
+
+###
+POST http://localhost:3000/users 
+User-Agent: rest-client
+Content-Type: application/json
+
+{
+  "id": 2,
+  "username": "Majd",
+  "email": "majd@alaskaridesigm.com",
+  "password": "12345",
+  "role": "user",
+  "createdAt": null,
+  "updatedAt": null
+}
+
+###

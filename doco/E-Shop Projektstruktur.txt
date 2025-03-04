@@ -1,0 +1,71 @@
+eshop-api/
+├── src/
+│   ├── app.module.ts
+│   ├── main.ts
+│
+│   ├── config/
+│   │   ├── db.config.ts          
+│   │   └── typeorm.config.ts  
+│    
+│   ├── database/
+│   │   └── data-source.ts        
+│
+│   ├── common/
+│   │   ├── decorators/
+│   │   │   ├── current-user.decorator.ts
+│   │   │   └── public.decorator.ts
+│   │   ├── filters/
+│   │   │   └── global-exception.filter.ts
+│   │   ├── guards/
+│   │   │   ├── jwt-auth.guard.ts
+│   │   │   └── roles.guard.ts
+│   │   └── interceptors/
+│   │       └── logging.interceptor.ts
+│
+│   ├── users/
+│   │   ├── users.module.ts
+│   │   ├── users.controller.ts
+│   │   ├── users.service.ts
+│   │   ├── dto/
+│   │   │   ├── create-user.dto.ts
+│   │   │   └── update-user.dto.ts
+│   │   ├── entities/
+│   │   │   └── user.entity.ts
+│   │   └── filters/
+│   │       └── users-exception.filter.ts
+│
+│   ├── products/
+│   │   ├── products.module.ts
+│   │   ├── products.controller.ts
+│   │   ├── products.service.ts
+│   │   ├── dto/
+│   │   │   ├── create-product.dto.ts
+│   │   │   └── update-product.dto.ts
+│   │   ├── entities/
+│   │   │   └── product.entity.ts
+│   │   └── filters/
+│   │       └── products-exception.filter.ts
+│
+│   ├── orders/
+│   │   ├── orders.module.ts
+│   │   ├── orders.controller.ts
+│   │   ├── orders.service.ts
+│   │   ├── dto/
+│   │   │   ├── create-order.dto.ts
+│   │   │   └── update-order.dto.ts
+│   │   ├── entities/
+│   │   │   └── order.entity.ts
+│   │   └── filters/
+│   │       └── orders-exception.filter.ts
+│
+│   └── migrations/
+│       ├── 1700000000000-CreateUsersTable.ts
+│       ├── 1700000000001-CreateProductsTable.ts
+│       └── 1700000000002-CreateOrdersTable.ts
+│
+├── .env
+├── .env.example
+├── package.json
+├── tsconfig.json
+├── tsconfig.build.json
+└── README.md
